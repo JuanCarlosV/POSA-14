@@ -15,7 +15,8 @@ paths:
   /jobstory1:
       parameters:
         - name: archivoxml
+          in: "pagina"
           description: "Documento fiscal"
           required: true
           schema:
-            type: file
+            type: object
