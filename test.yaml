@@ -2,7 +2,6 @@
 openapi: 3.0.0
 info:
   description:
-    
     # Arquitectura de Información
     Proyecto Reconocimiento de Materiales de Iguala
   version: 1.0.0
@@ -15,7 +14,7 @@ paths:
   /jobstory1:
       parameters:
         - name: archivoxml
-          in: "pagina"
+          in: "path"
           description: "Documento fiscal"
           required: true
           schema:
