@@ -12,3 +12,10 @@ info:
     email: cvillegas@rimsamex.com
    
 paths:
+  /jobstory1:
+      parameters:
+        - name: archivoxml
+          description: "Documento fiscal"
+          required: true
+          schema:
+            type: file
