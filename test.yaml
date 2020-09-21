@@ -10,11 +10,3 @@ info:
   contact:
     name: Encargados de proyecto
     email: cvillegas@rimsamex.com
-tags:
-  - name: pet
-    x-displayName: The Pet Model
-    description: |
-
-  - name: store_model
-    x-displayName: The Order Model
-    description: |
